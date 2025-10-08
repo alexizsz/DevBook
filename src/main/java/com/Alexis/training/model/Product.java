@@ -17,6 +17,9 @@ public class Product {
         this.quantity = quantity;
     }
 
+    @ManyToOne
+    private Booking booking;
+
     private String name;
 
     private String sku;

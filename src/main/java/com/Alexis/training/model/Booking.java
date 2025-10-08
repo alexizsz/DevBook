@@ -18,11 +18,13 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
+    @ManyToOne
     private Company company;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "booking")
     private List<Product> products;
 
+    @ManyToOne
     private Location location;
 
     public Long getId() {

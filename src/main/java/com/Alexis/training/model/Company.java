@@ -3,7 +3,7 @@ package com.Alexis.training.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "companies")
+@Table(name="companies")
 public class Company {
 
     public Company(Long id, String name, String contact) {
