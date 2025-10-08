@@ -1,4 +1,4 @@
-package com.Alexis.training.model;
+package com.Alexis.dev.backend.model;
 
 import jakarta.persistence.*;
 
